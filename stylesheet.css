@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family :'helvetica';
+    src: url('helvetica/Helvetica.ttf');
+}
+.logo {
+    width: 180px;
+       float: left;
+    
+  
+      
+    
+}
+
+header {
+    height: 60  px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    margin-top: 20px;
+  }
+
+.header-left {
+    float: left;
+    
+}
+.header-right {
+    float: right;
+    padding-top:15px ;
+}
+
+.header-logo {
+    float: left;
+    text-align: center;
+    
+}
+
+.header-right a{
+    padding: 12px 25px;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #076692;
+}
+
+.header-right a:hover {
+    color:white;
+  }
+
+.login {
+    padding: 12px 18px;
+  
+    text-align: center;
+    border-radius: 18px;
+    display: inline-block;
+    background-color: #FFB400;
+        
+}
+
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.top-wrapper {
+    background-image: url(img/backk.png);
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    height: 550px;
+
+}
+.top-wrapper h3 {
+    font-weight: normal;
+}
+
+.slider {
+    float: left;
+    margin-right: 10px;
+    
+    
+}
+
+
+.btn {
+    color :white;
+    text-align: center;
+    border-radius: 18px;
+    display: inline-block;
+    padding: 12px 18px;
+
+}
+
+.signup {
+    background-color: #5094DD;
+    margin-right: 10px;
+}
+.signup:hover {
+    background-color: #FFB400;
+}
+
+.watch {
+    border: 2px solid #5094DD;  
+    color : #5094DD;
+}
+
+.watch:hover {
+    background-color: #FFB400;
+    color: white;
+    border: 2px solid #FFB400
+}
+
+.fa {
+    margin-right: 5px;
+}
+.img-right {
+    width: 424px;
+}
